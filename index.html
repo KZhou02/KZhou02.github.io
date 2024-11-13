@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Hassan Ali">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://github.com/KZhou02" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>		
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/Headshot 2.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					Hello! My name is Kenny Zhou. I am a graduate from the University of Massachusetts Boston. I graduated with a BS in Computer Science in 2024. I am looking for opportunities to get experience in the field. Thank you for your consideration!
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<p class="project_title">
+									Advanced Data Structures
+								</p>
+								<div>
+									<figure class="image project-figure">
+										<a href="https://gitfront.io/r/user-2521240/yhpBuWMaa4Vq/CS310-Advanced-Data-Structures-and-Algorithms/"><img src="assets/img/UMB logo.png" alt="Image"></a>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Programming assignemnts for CS310: Advanced Data Structures and Algorithms. Covers advanced data structures, greedy algorithms, algorithm analysis and dynamic programming.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<p class="project_title">
+									Intermediate Computing with Data Structures
+								</p>
+								<div>
+									<figure class="image project-figure">
+										<a href="https://gitfront.io/r/user-2521240/tU7jLsxcr4dP/CS210-Intermediate-Computing/"><img src="assets/img/UMB logo.png" alt="Image"></a>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Programming assignments for CS210: Intermediate Computing with Data Structures. Covers data structures and searching and sorting techniques.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 3 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<p class="project_title">
+										Vegas Scripts
+									</p>
+								</div>
+								<div>
+									<figure class="image project-figure">
+										<a href="https://gitfront.io/r/user-2521240/ysCUt1Jfmz9U/Sony-Vegas-Scripts/"><img src="assets/img/Vegas_Pro.png" alt="Image"></a>
+									</figure>
+								</div>
+								<div>			
+									<p>
+										Personal script(s) for editing using Vegas Pro.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.linkedin.com/in/kenny-zhou-zz2/"><img class="" src="assets/img/linkedin.png"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://discord.com/users/1012077905494421535"><img class="" src="assets/img/discord.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<!-- <a>Kenny Zhou</a> -->
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
