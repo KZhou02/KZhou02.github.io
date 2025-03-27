@@ -64,7 +64,7 @@ a.nav-item:hover {
 }
 
 .project-text {
-	text-align: justify;
+	text-align: center;
 }
 
 .box {
@@ -79,7 +79,7 @@ a.nav-item:hover {
 }
 
 .intro {
-	text-align: justify;
+	text-align: center;
 	width: 80%;
 	margin: 0 auto;
 }
