@@ -25,5 +25,6 @@ section{
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
-	flex-flow: row wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
