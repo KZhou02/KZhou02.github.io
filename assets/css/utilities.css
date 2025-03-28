@@ -1,0 +1,84 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647; 
+}
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 140px;
+	max-width: 140px;
+}
+
+.project-text {
+	text-align: center;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:100px;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.project_title {
+	text-align: center;
+	font-size: 20px;
+}
+.void-background {
+	position: absolute;
+	background-color: transparent; 
+}
+.flexbox div {
+    width: 120px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: #063647;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+}
