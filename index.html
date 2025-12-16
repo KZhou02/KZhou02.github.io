@@ -5,6 +5,7 @@
 	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/themes.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/utilities.css">
 
@@ -13,30 +14,38 @@
 </head>
 	<body>
 		<!-- Navbar -->
-		<nav class="nav container void-background">
-			<!-- This "nav-menu" is hidden on mobile -->
-			<!-- Add the modifier "is-active" to display it on mobile -->
-			<div class="nav-left">
-				<a href="https://github.com/KZhou02" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-github"></i>
-					</span>
-				</a>		
-			</div>
+		<nav class="nav void-background">
+			<div class="container">
+				<!-- This "nav-menu" is hidden on mobile -->
+				<!-- Add the modifier "is-active" to display it on mobile -->
+				<div class="nav-left">
+					<a href="https://github.com/KZhou02" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-github"></i>
+						</span>
+					</a>		
+				</div>
 
-			<div class="nav-right nav-menu">
-				<a class="nav-item" href="#about">About</a>
-				<a class="nav-item" href="#projects">Projects</a>
-				<a class="nav-item" href="#social">Social</a>
-			</div>
+				<div class="nav-right nav-menu">
+					<a class="nav-item" href="#about">About</a>
+					<a class="nav-item" href="#projects">Projects</a>
+					<a class="nav-item" href="#social">Social</a>
+					<!-- Theme Toggle -->
+					<a class="nav-item theme-toggle" id="theme-toggle" title="Toggle dark mode">
+						<span class="icon">
+							<i class="fa fa-moon-o" id="theme-icon"></i>
+						</span>
+					</a>
+				</div>
 
-			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-			<span class="nav-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</span>
+				<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+				<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+				<span class="nav-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</div>
 		</nav>
 				
 		<!-- About Me -->
@@ -53,15 +62,15 @@
 		</section>
 		
 		<!-- Projects -->
-		<section  id="projects" class="section section-2">
+		<section id="projects" class="section section-2">
 			<div class="container">
 				<div class="has-text-centered">
 					<h3 class="title is-3">Projects</h3>
 				</div>
 				
-				<div class="columns is-multiline is-desktop">
+				<div class="projects-grid">
 					<!-- Project 1 -->
-					<div class="column">
+					<div class="project-item">
 						<div class="box project-text">
 							<article>
 								<div>
@@ -83,7 +92,7 @@
 						</div>
 					</div>
 					<!-- Project 2 -->
-					<div class="column">
+					<div class="project-item">
 						<div class="box project-text">
 							<article>
 								<div>

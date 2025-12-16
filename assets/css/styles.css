@@ -1,30 +1,80 @@
-section{
+section {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
+/* Section backgrounds using variables */
 .section-1 {
-	background: #063647;
+    background: var(--bg-primary);
 }
 
 .section-2 {
-	background-color: #052D3D;
+    background-color: var(--bg-secondary);
 }
 
 .section-3 {
-	background-color: #0E282E;
+    background-color: var(--bg-primary);
 }
 
 .section-4 {
-	background-color: #063647;
-	padding: 0.2rem;
+    background-color: var(--bg-tertiary);
+    padding: 0.2rem;
 }
 
+/* Social icons flexbox */
 .flexbox {
-	width: 80%;
+	width: 90%;
+	max-width: 600px;
 	margin: auto;
 	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
 	flex-wrap: wrap;
+}
+
+/* Override Bulma's column behavior for projects */
+#projects .columns {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: -1rem;
+}
+
+#projects .column {
+	flex: 0 1 400px;
+	padding: 1rem;
+	display: flex;
+}
+
+/* Ensure box takes full height */
+#projects .box {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Responsive adjustments for projects */
+@media screen and (max-width: 768px) {
+	#projects .column {
+		flex: 1 1 100%;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+	#projects .columns {
+		max-width: 840px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#projects .columns {
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
